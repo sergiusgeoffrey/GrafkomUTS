@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTSGrafkom", "UTSGrafkom\UTSGrafkom.csproj", "{823D42A3-AD56-431C-8358-1B04524F2AF3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32787349-51BF-4635-BF64-193C1B4CC8E6} = {32787349-51BF-4635-BF64-193C1B4CC8E6}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "..\Common\Common\Common.csproj", "{32787349-51BF-4635-BF64-193C1B4CC8E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{823D42A3-AD56-431C-8358-1B04524F2AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823D42A3-AD56-431C-8358-1B04524F2AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823D42A3-AD56-431C-8358-1B04524F2AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823D42A3-AD56-431C-8358-1B04524F2AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32787349-51BF-4635-BF64-193C1B4CC8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32787349-51BF-4635-BF64-193C1B4CC8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32787349-51BF-4635-BF64-193C1B4CC8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32787349-51BF-4635-BF64-193C1B4CC8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10BE096E-F012-40A8-AFE9-3CDDB47889AD}
+	EndGlobalSection
+EndGlobal
